@@ -6,8 +6,9 @@
  * QQ: 1039814413
  * Wechat Number: wikitest
  * Date: 1/31/2018
- * Time: 6:50 PM
+ * Time: 6:58 PM
  */
 
-var config = require('./libraries/config');
-console.log(config);
+ module.exports = {
+ 	"appname": "konohanaruto的聊天室"
+ };
