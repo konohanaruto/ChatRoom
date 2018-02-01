@@ -1,0 +1,130 @@
+@charset "UTF-8"
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.room-message { 
+    width: 300px;
+    height: 150px;
+    max-height: 150px;
+    overflow-y: auto;
+    padding: 20px;
+    /*color: #159A00;*/
+    border: 1px solid #979797;
+}
+
+.room-message p {
+    margin-bottom: 10px;
+}
+
+.input-control {
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.input-control input {
+    padding: 5px;
+    /*margin-right: 10px;*/
+    width: 300px;
+}
+
+.input-control button {
+    padding: 5px;
+}
+
+.online-userlist {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 200px;
+    border: 1px solid #979797;
+    padding: 10px;
+	/*text-align: center; */
+    font-size: 14px;
+}
+
+.title-info {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.online-userlist p {
+    position: relative;
+    font-size: 18px;
+    border-top: 1px solid #979797;
+    height: 30px;
+    line-height: 30px;
+}
+
+.online-userlist p span {
+    position: absolute;
+}
+
+.online-userlist .action-js-buttons {
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.online-userlist .private-chat-btn {
+    cursor: pointer;
+}
+
+.private-chat-box {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.private-chat-box h2 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.send-private-msg-btn {
+    margin-top: 10px;
+}
+
+.input-message-box {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    display: none;
+    border: 1px solid #979797;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.input-message-box textarea {
+    padding: 8px;
+}
+
+.close-box {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.to-username-span {
+    color: green;
+}

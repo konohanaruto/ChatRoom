@@ -1,6 +1,6 @@
 /**
  * Created by PhpStorm.
- * File: server.js
+ * File: config.js
  * User: konohanaruto
  * Blog: http://www.muyesanren.com
  * QQ: 1039814413
@@ -10,5 +10,5 @@
  */
 
  module.exports = {
- 	"appname": "konohanaruto的聊天室"
+ 	"appname": "webchat"
  };
