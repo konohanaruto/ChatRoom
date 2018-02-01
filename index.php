@@ -11,9 +11,14 @@
  * Time: 10:29 PM
  */
 
-$uid = $_GET['uid'];
+if (! isset($_GET['uid']) || ! isset($_GET['username'])) {
+    echo '参数错误';
+    exit;
+}
+
+$uid = intval($_GET['uid']);
 $username = $_GET['username'];
-$roomId = $_GET['room_id'];
+$roomId = isset($_GET['room_id']) ? $_GET['room_id'] : 1;
 
 ?>
 <!DOCTYPE html>
