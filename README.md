@@ -72,6 +72,8 @@ http://socket.web/index.php?uid=1&username=konohanaruto&room_id=1
 
 适当调整这三个参数可实现同时多房间聊天，私聊。
 
+:smile::smile::smile:
+
 ## License
 
 Apache License 2.0
