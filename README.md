@@ -48,7 +48,7 @@ php配置
 </VirtualHost>
 ```
 
-### Redis服务端安装
+Redis服务端安装
 
 [redis](https://redis.io/)
 
