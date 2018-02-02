@@ -76,7 +76,7 @@ http://socket.web/index.php?uid=1&username=konohanaruto&room_id=1
 
 ## License
 
-Apache License 2.0
+[Apache License 2.0](http://www.apache.org/licenses/)
 
 
 
