@@ -24,17 +24,17 @@
 
 ## 安装和部署
 
-安装nodejs的socket.io和redis扩展包
+#### 安装nodejs的socket.io和redis扩展包
 
 ```
 npm install
 ```
 
-node.js安装
+#### node.js安装
 
 [nodejs](https://nodejs.org/en/download/)
 
-php配置
+#### php配置
 
 ```
 <VirtualHost *:80>
@@ -48,7 +48,7 @@ php配置
 </VirtualHost>
 ```
 
-Redis服务端安装
+#### Redis服务端安装
 
 [redis](https://redis.io/)
 
