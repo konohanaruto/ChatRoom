@@ -16,7 +16,7 @@
     "url": "git+https://github.com/konohanaruto/ChatRoom.git"
   },
   "author": "konohanaruto",
-  "license": "ISC",
+  "license": "Apache License 2.0",
   "bugs": {
     "url": "https://github.com/konohanaruto/ChatRoom/issues"
   },
