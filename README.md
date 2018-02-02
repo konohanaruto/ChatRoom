@@ -60,7 +60,7 @@ npm install
 
 2. node服务端启动
 
-`/usr/llocal/node/bin/node server.js`
+`/usr/local/node/bin/node server.js`
 
 3. 进入聊天室
 
