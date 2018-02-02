@@ -41,7 +41,7 @@ npm install
     ServerName socket.web
     DocumentRoot /var/www/www.phptest.com/ChatRoom
     <Directory /var/www/www.phptest.com/ChatRoom>
-	    Require all granted
+        Require all granted
         Options Indexes FollowSymlinks MultiViews
         AllowOverride All
     </Directory>
